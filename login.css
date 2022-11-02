@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'login';
+    src: url('fontes/Homemade\ Sausage.ttf');
+}
+
+@font-face {
+    font-family: 'light';
+    src: url(fontes/Praktika-Light.otf);
+}
+
+body {
+    background-color: #461f66;
+
+}
+
+section {
+
+    background-color: #2D1342;
+    width: 350px;
+    height: 290px;
+    margin: auto;
+    padding: 20px;
+    margin-top: -335px;
+    margin-left: 600px;
+
+}
+
+#jock { /*Imagem do Coringa*/
+    width: 281px;
+    margin-top: 106px;
+    margin-left: 320px;
+    
+    
+}
+
+#alinha {
+    color: white;
+    margin-right: 70px;
+    font-family: 'login';
+    margin-left: 60px;
+
+
+}
+
+input {
+    width: 180px;
+    height: 40px;
+    border-style: hidden;
+    border-radius: 4px;
+    background-color: #461f66;
+    margin-left: 80px;
+    font-family: 'login';
+    
+}
+
+hr {
+    width: 280px;
+    
+}
+
+#user {
+    margin-left: 50px;
+    margin-bottom: -6px;
+
+}
+
+#email {
+    margin-left: 10px;
+}
+
+#cadeado {
+    margin-left: 50px;
+    margin-bottom: -35px;
+}
+
+#entrar {
+    color: white;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #301646, #4a1f6e, #301646);
+
+}
+
+
+#email:hover, #senha:hover, #entrar:hover { /*Quando passamos o mouse em cima, os campos aumentam de tamanho...*/
+    transform: scale(1.04);
+
+}
+
+#cadastro {
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 70px;
+    font-family: 'light';
+    margin-top: 12px;
+
+}
+
+#esqueceu {
+    font-family: 'light';
+    color: white;
+    font-size: 14px;
+    margin-left: 110px;
+}
